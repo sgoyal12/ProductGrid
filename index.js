@@ -168,7 +168,7 @@ $(document).ready(() => {
     fileURL: "data/products.json",
     productListOptions: {
       containerProducts: $("[data-product-list-container='container']"),
-      filters: ['brand', 'color', 'sold_out'],
+      filters: ['brand', 'color', 'sold_out', 'size'],
       filtersAfter: $("[data-product-filter-after='after']"),
       toggleFilters: { 
         'sold_out': {
